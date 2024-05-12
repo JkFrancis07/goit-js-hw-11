@@ -1,0 +1,88 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: auto;
+}
+
+/* SEARCH HEADER */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #eada4b;
+}
+
+.search-form-input {
+  padding-left: 15px;
+  border: none;
+  outline: none;
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lightbox {
+  color: black;
+  text-decoration: none;
+}
+
+.photo-card {
+  margin-top: 50px;
+  margin-left: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* INFORMATION PICTURE */
+.info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+}
+
+.info-number {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+  
